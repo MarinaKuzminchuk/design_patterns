@@ -1,3 +1,5 @@
+import java.util.List;
+
 public interface Observer {
-    //public void update(float interest);
+    public void update(List<ShoppingCart> shoppingCarts);
 }
