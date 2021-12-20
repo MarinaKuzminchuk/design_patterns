@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ShoppingCartList implements Subject{
-    private List<ShoppingCart> shoppingCarts = new ArrayList<>();
+    List<ShoppingCart> shoppingCarts = new ArrayList<>();
     private List<Observer> observers = new ArrayList<>();
 
     @Override
